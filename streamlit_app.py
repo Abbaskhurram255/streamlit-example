@@ -5,6 +5,12 @@ import streamlit as st
 
 custom_footer = """
             <style>
+            header {
+                visibility: hidden;
+            }
+            #MainMenu {
+                visibility: hidden;
+            }
             footer {visibility: hidden;}
             footer:after {
                 content:'© 2026 Klang Corp.'; 
