@@ -7,7 +7,7 @@ custom_footer = """
             <style>
             footer {visibility: hidden;}
             footer:after {
-                content:'© 2026 Your Name Here'; 
+                content:'© 2026 Klang Corp.'; 
                 visibility: visible;
                 display: block;
                 position: relative;
