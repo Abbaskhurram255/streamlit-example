@@ -12,14 +12,6 @@ html_to_remove_watermarks = """
                 visibility: hidden;
             }
             footer {visibility: hidden;}
-            header:after {
-                content:'© 2026 Klang Corp.'; 
-                visibility: visible;
-                display: block;
-                position: relative;
-                padding: 5px;
-                top: 2px;
-            }
             </style>
             """
 st.markdown(html_to_remove_watermarks, unsafe_allow_html=True)
