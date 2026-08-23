@@ -3,6 +3,22 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+custom_footer = """
+            <style>
+            footer {visibility: hidden;}
+            footer:after {
+                content:'© 2026 Your Name Here'; 
+                visibility: visible;
+                display: block;
+                position: relative;
+                padding: 5px;
+                top: 2px;
+            }
+            </style>
+            """
+st.markdown(custom_footer, unsafe_allow_html=True)
+
+
 """
 # Welcome to Streamlit!
 
