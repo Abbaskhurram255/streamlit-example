@@ -20,7 +20,7 @@ st.markdown(custom_footer, unsafe_allow_html=True)
 
 
 """
-# Welcome to Streamlit!
+# elcome to Streamlit!
 
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:.
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
