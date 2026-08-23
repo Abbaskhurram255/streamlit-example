@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-custom_footer = """
+html_to_remove_watermarks = """
             <style>
             header {
                 visibility: hidden;
@@ -12,7 +12,7 @@ custom_footer = """
                 visibility: hidden;
             }
             footer {visibility: hidden;}
-            footer:after {
+            header:after {
                 content:'© 2026 Klang Corp.'; 
                 visibility: visible;
                 display: block;
@@ -22,7 +22,7 @@ custom_footer = """
             }
             </style>
             """
-st.markdown(custom_footer, unsafe_allow_html=True)
+st.markdown(html_to_remove_watermarks, unsafe_allow_html=True)
 
 
 """
